@@ -1,0 +1,8 @@
+%meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+%meta{:charset => "utf-8"}
+%meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no", :name => "viewport"}/
+= action_cable_meta_tag
+= csrf_meta_tags
+= csp_meta_tag
+= stylesheet_pack_tag  'application', 'data-turbolinks-track': 'reload'
+= javascript_pack_tag 'application', defer: true, 'data-turbolinks-track': 'reload'
